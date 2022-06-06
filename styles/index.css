@@ -1,0 +1,53 @@
+#navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    /* padding: 5px; */
+    margin: 5px 0px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+h3{
+    /* font-size: 25px; */
+    border: 1px solid black;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+form > input,button{
+    display: block;
+    margin-top: 10px;
+    outline: none;
+    width: 200px;
+    padding: 10px;
+}
+
+button
+{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    /* text-align: center; */
+}

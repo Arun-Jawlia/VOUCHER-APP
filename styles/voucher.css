@@ -1,0 +1,38 @@
+#nav
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: aliceblue;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+button > a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+
+.voucher{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: auto;
+gap: 20px;
+width: 80%;
+margin: auto;
+margin-top: 20px;
+text-align: center;
+}
+
+.voucher_list{
+    /* border: 2px solid black; */
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+}
+
+#voucherImage{
+width: 100%;
+}
